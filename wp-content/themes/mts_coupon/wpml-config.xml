@@ -1,0 +1,13 @@
+<wpml-config>
+  <admin-texts>
+    <key name="coupon">
+      <key name="mts_copyrights" />
+      <key name="mts_custom_slider">
+        <key name="*">
+          <key name="mts_custom_slider_title" />
+          <key name="mts_custom_slider_link" />
+        </key>
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>

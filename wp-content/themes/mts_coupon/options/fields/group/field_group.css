@@ -1,0 +1,24 @@
+.nhpoptions-group { padding: 0; margin-bottom: 7px; width: 415px; max-width: 100%; }
+.nhpoptions-group h4 { margin: 5px 0px 5px 0px }
+.nhpoptions-group h4:first-child { margin-top: 0px }
+.nhpoptions-group .description { margin: 0 0 5px 0px }
+.nhpoptions-group #nhp-opts-groups-accordion { width: 100% }
+.nhpoptions-group .nhp-opts-groups-accordion-group { margin-bottom: 10px }
+.nhpoptions-group .nhp-opts-groups-accordion-group > div { border: 1px solid #dfdfdf !important; border-radius: 0 0 3px 3px !important; margin-top: 0px !important; padding: 10px; top: -3px; float: left; width: 100%; box-sizing: border-box; }
+.nhp-opts-groups-accordion-group h3 { border: 1px solid #dfdfdf; cursor: move; font-weight: bold; font-size: 15px; padding: 0 10px; margin-top: 10px; height: 36px; line-height: 36px; border-radius: 3px; background-color: #f1f1f1; background-image: -ms-linear-gradient(top, #f9f9f9, #ececec); background-image: -moz-linear-gradient(top, #f9f9f9, #ececec); background-image: -o-linear-gradient(top, #f9f9f9, #ececec); background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec)); background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec); background-image: linear-gradient(top, #f9f9f9, #ececec); overflow: hidden; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px !important; -moz-box-shadow: inset 0 1px 0 #fff; -webkit-box-shadow: inset 0 1px 0 #fff; box-shadow: inset 0 1px 0 #fff; text-align: center; z-index: 10; }
+.nhp-opts-groups-accordion-group h3.ui-accordion-header-active { color: #469f63; margin-bottom: 0; }
+.nhp-opts-groups-accordion-group:nth-child(2) h3 { margin-top: 0 }
+.nhpoptions-group .nhp-opts-groups-add:after { clear: both }
+.nhpoptions-group .nhp-opts-groups-remove { color: #ef521d !important; float: right; }
+.nhpoptions-group .nhp-opts-groups-remove { color: #ef521d !important; float: right; }
+.nhpoptions-group .nhp-opts-groups-remove:after { clear: both }
+#nhp-opts-groups-accordion span.description { display: block; margin-bottom: 5px; }
+.ui-accordion-content tr td { padding: 8px 2px 12px 2px !important }
+.ui-accordion-content tr:first-child td { padding: 0 2px 12px 2px !important }
+.nhp-opts-groups-close { margin-left: 3px !important }
+@media screen and (max-width:782px) { 
+  .nhpoptions-group { width: 100% !important; overflow: auto; }
+}
+@media screen and (max-width:600px) { 
+  .nhpoptions-group .nhp-opts-groups-remove { float: none; width: 100%; text-align: center; margin-top: 10px; }
+}

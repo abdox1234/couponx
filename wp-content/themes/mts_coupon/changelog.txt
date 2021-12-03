@@ -1,0 +1,930 @@
+v2.2.2 (Dec 12, 2020)
+-----------------------------
+- Fixed compatibility issues with the WordPress 5.6
+- Added 4 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- functions/rm-seo.php
+- js/customscript.js
+- options/css/aristo.css
+- options/fields/button_set/field_button_set.php
+- options/fields/button_set_hide_below/field_button_set_hide_below.php
+- options/fields/multi_checkbox/field_multi_checkbox.php
+- options/fields/background/field_background.php
+- options/js/options.js
+- style.css
+
+
+v2.2.1 (Aug 19, 2020)
+-----------------------------
+- Fixed a PHP error appearing after visiting the Themes page
+
+Files Updated:
+- functions.php
+- style.css
+
+
+v2.2.0 (Aug 14, 2020)
+-----------------------------
+- Fixed compatibility issues with the WordPress 5.5
+- Disabled WP 5.5 core lazy loading if theme's lazy loading option is enabled
+
+Files Updated:
+- functions.php
+- options/fields/group/field_group.css
+- options/fields/group/field_group.js
+- options/fields/layout2/field_layout2.js
+- lang/coupon.pot
+- theme-options.php
+- style.css
+
+
+v2.1.16 (Jul 15, 2020)
+-----------------------------
+- Added new option to create unique sidebars for the tag archive pages [Theme Options >> Coupon Archive >> Coupon Tag Sidebars]
+- Added 61 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- theme-options.php
+- options/fields/coupon_cat_multi_checkbox/field_coupon_cat_multi_checkbox.php
+- options/fields/coupon_tag_multi_checkbox/field_coupon_tag_multi_checkbox.php
+- lang/coupon.pot
+- style.css
+
+
+v2.1.15 (Apr 21, 2020)
+-----------------------------
+- Added 6 new Google fonts in the typography options
+- Updated .pot file for the localization
+- Strengthened the theme security
+
+Files Updated:
+- functions.php
+- functions/rm-seo.php
+- options/google-typography/google-typography.php
+- options/google-typography/javascripts/google-typography.js
+- options/js/help.js
+- options/js/options.js
+- options/options.php
+- options/support.php
+- lang/coupon.pot
+- style.css
+
+
+v2.1.14 (Jan 29, 2020)
+-----------------------------
+- Added schema markup for the last item of the Breadcrumb
+
+Files Updated:
+- functions.php
+- functions/theme-actions.php
+- style.css
+
+
+v2.1.13 (Jan 23, 2020)
+-----------------------------
+- Fixed 'data-vocabulary' schema warning in the breadcrumbs
+- Added 3 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- functions/theme-actions.php
+- lang/coupon.pot
+- style.css
+
+
+v2.1.12 (Dec 17, 2019)
+-----------------------------
+- Fixed issue with theme options getting cleared
+
+Files Updated:
+- functions.php
+- style.css
+- theme-options.php
+- functions/affiliates/linkshare.php
+- functions/affiliates/admitad.php
+
+
+v2.1.11 (Dec 5, 2019)
+-----------------------------
+- Added comment section in the single Coupon post [Please note: Comment section will be enabled by default for new coupons, old coupons will not show any comment area, you have to enable the comment option in those posts manually]
+- Added 6 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- lang/coupon.pot
+- single-coupons.php
+- style.css
+
+
+v2.1.10 (Nov 14, 2019)
+-----------------------------
+- Fixed notices related to WP 5.3
+
+Files Updated:
+- functions.php
+- lang/coupon.pot
+- options/options.php
+- style.css
+
+
+v2.1.9 (Aug 05, 2019)
+-----------------------------
+- Fixed theme options reset issue
+- Added 10 new Google fonts in the typography options
+
+ Files Updated:
+- theme-options.php
+- functions.php
+- functions/class-affiliates-coupon.php
+- functions/affiliate/admitad.php
+- functions/affiliate/linkshare.php
+- functions/affiliate/cj.php
+- functions/affiliate/tradedoubler.php
+- style.css
+
+
+v2.1.8 (Jul 17, 2019)
+-----------------------------
+- Fixed 'Upload Theme' button not working
+- Added 9 new Google fonts in the typography options
+
+ Files Updated:
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions.php
+- options/css/options.css
+- style.css
+
+
+v2.1.7 (May 28, 2019)
+-----------------------------
+- Fixed error in Breadcrumb when Rank Math plugin is active.
+
+Files Updated:
+- functions\theme-actions.php
+- page-blog.php
+- page-templates\contact.php
+- page.php
+- single-coupons.php
+- single.php
+
+
+v2.1.6 (Feb 19, 2019)
+-----------------------------
+- Fixed styling of homepage subscription box section
+
+Files Updated:
+- functions.php
+- style.css
+
+
+v2.1.5 (Feb 7, 2019)
+-----------------------------
+- Fixed Commission Junction API update developer key deprecated
+- Added 14 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- functions/affiliates/cj.php
+- theme-options.php
+- style.css
+
+
+v2.1.4 (Jan 6, 2019)
+-----------------------------
+- Updated the Rank Math's auto installation process to give the control back to the users
+- Fixed MyThemeShop Connect install issue on Recommended Plugins page
+
+Files Updated:
+- functions.php
+- functions/rank-math-notice.php
+- functions/rm-seo.php
+- functions/theme-actions.php
+- images/rank-math-banner.jpg
+- lang/coupon.pot
+- style.css
+
+
+v2.1.3 (Nov 28, 2018)
+-----------------------------
+- Added More SEO Tweaks
+- Added better integration with Rank Math SEO plugin
+- Added integration for Rank Math SEO Breadcrumbs
+- Improved comments cookies opt-in checkbox.
+- Replaced inline transparent 1x1 image
+
+Files Updated:
+- comments.php
+- functions.php
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- page-blog.php
+- page-templates\contact.php
+- page.php
+- single-coupons.php
+- single.php
+- style.css
+
+
+2.1.2 (Nov 02, 2018)
+-----------------------------
+- Fixed Number of coupons options on archive pages
+- Added 2 new Google fonts in the typography options
+
+Files Updated:
+- style.css
+- functions.php
+
+
+v2.1.1 (Oct 29, 2018)
+-----------------------------
+- Added Integration for Rank Math SEO Breadcrumbs
+- Added Valid date string check for coupon expiry date
+- Fixed Twitter widget issue
+- Fixed Expired coupon query overwriting main meta query
+- Added 13 new Google fonts in the typography options
+
+Files Updated:
+- functions.php
+- single.php
+- style.css
+- functions/cacert.pem
+- functions/twitteroauth.php
+- functions/widget-tweets.php
+- lang/coupon.pot
+
+
+v2.1.0 (Oct 9, 2018)
+-----------------------------
+- Added life-changing SEO support with an included SEO plugin
+- Added compatibility for Gutenberg editor
+- Added 6 new Google fonts in the typography options
+- Security & licensing fixes
+- Fixed WooCommerce Product Search button styling issue
+- Fixed WooCommerce Layered Nav Dropdown button styling issue
+- Fixed other minor CSS issues
+- Important fixes for better performance
+
+Files Updated:
+- functions.php
+- style.css
+- css/woocommerce2.css
+- functions/plugin-activation.php
+- functions/rm-seo.php
+- functions/theme-actions.php
+- options/options.php
+- lang/coupon.pot
+
+
+2.0.7 (July 19, 2018)
+-----------------------------
+- Fixed Missing categories in theme options ( Theme Options -> Homepage -> Category Tabs -> Coupon Category Tabs )
+- Minor Code improvements
+
+Files Updated:
+- style.css
+- functions.php
+- theme-options.php
+
+
+2.0.6 (June 27, 2018)
+-----------------------------
+- Added Home Page Option To Exclude Expired Coupons
+- Fixed WooCommerce Outdated Templates
+- Minor Code improvements
+
+Files Updated:
+- style.css
+- functions.php
+- theme-options.php
+- functions/welcome-message.php
+- functions/theme-actions.php
+- home/section-tabs.php
+
+v2.0.5 (June 09, 2018)
+-----------------------------
+- Fixed widget authorposts issue
+
+Files Updated:
+- style.css
+- functions.php
+- functions/widget-authorposts.php
+
+v2.0.4 (May 24, 2018)
+-----------------------------
+- Added GDPR compliant comment & contact form
+- Fixed column alignment issue in the Elmentor plugin
+
+Files Updated:
+- style.css
+- functions.php
+- comments.php
+- css/rtl.css
+- functions/contact-form.php
+- js/contact.js
+
+
+v2.0.3 (May 17, 2018)
+-----------------------------
+- Fixed shop page pagination issue
+
+Files Updated:
+- functions.php
+- style.css
+
+
+v2.0.2 (May 14, 2018)
+-----------------------------
+- Fixed coupon featured image issue
+- Fixed warnings and improved code
+
+Files Updated:
+- style.css
+- functions.php
+- header.php
+- functions/theme-actions.php
+
+v2.0.1 (May 07, 2018)
+-----------------------------
+- Fixed expired coupon issue
+
+Files Updated:
+- style.css
+- functions.php
+
+v2.0 (Apr 23, 2018)
+-----------------------------
+Note: This is a major update, before updating, please backup you database and old plugin files.
+- Import coupons from Tradedoubler
+- Import coupons from LinkShare
+- Import coupons from Admitad
+- Import coupons from Commission Junction
+- Added Latest Post section in the homepage layout
+- Added an option to remove expired coupons
+- Added an option to use coupon image and print it
+- Added options to change coupon slug
+- Added options to change coupon category slug
+- Added options to change coupon tag slug
+- Added Popular Offers widget
+- Added missing image in the Carousel script
+- Added brand new social share icons layout
+- Added Reddit support in the social sharing buttons
+- Added few performance perks
+- Added child theme file override support
+- Added description on archive pages for SEO
+- Added new Ad-Sense widget to insert ad codes (MTS Adcode)
+- Added WP Subscribe plugin in Essential Plugins list
+- Added My Account page styling in WooCommerce
+- Added Elementor plugin compatibility
+- Added an error handler to .activate-button ajax
+- Improved schema markup code
+- Improved enqueue args code
+- Improved related posts code
+- Improved child theme creation code
+- Improved map menu in custom menu widget after import
+- Improved overall code for better performance & security
+- Improved sidebar code
+- Fixed 'Demo 5' Import option issue
+- Fixed small Lazy Loader bug
+- Fixed plugin install issue on "Install Required Plugins" page
+- Fixed PHP & importer warnings
+- Fixed AJAX searches for the header search form (was showing blog posts)
+- Fixed Related Coupons alignment issue
+- Fixed Resposive issue
+- Fixed Illegal string offset issue in Social Profile Icons widget
+- Fixed color picker issue in the theme Options Panel
+- Fixed position of loading effect in infinite scroll pagination type
+- Fixed Group field input checkbox
+- Fixed OAuthException issue
+- Fixed bug in the single post Tags
+- Fixed isOnScreen script bug when no element exists
+- Fixed issue in the mts_wp_link_pages_args()
+- Fixed minor CSS issues
+- Changed Modal style
+- Changed search result title
+- Disabled lazy-load on AMP pages
+- Updated FontAwesome to 4.7 (41 New Icons!)
+- Updated Facebook Script
+
+Files Updated:
+- style.css
+- functions.php
+- theme-options.php
+- archive.php
+- header.php
+- searchform.php
+- js/addons.js
+- js/ajax.js
+- js/customscript.js
+- css/addons.css
+- css/responsive.css
+- css/font-awesome.min.css
+- css/woocommerce2.css
+- css/rtl.css
+- fonts/..
+- functions/nav-menu.php
+- functions/widget-social.php
+- functions/welcome-message.php
+- functions/theme-actions.php
+- functions/widget-ad125.php
+- functions/widget-ad300.php
+- functions/widget-ad728.php
+- functions/widget-authorposts.php
+- functions/widget-catposts.php
+- functions/widget-fblikebox.php
+- functions/widget-instagram.php
+- functions/widget-popular.php
+- functions/widget-recentposts.php
+- functions/widget-relatedposts.php
+- functions/widget-social.php
+- functions/widget-tweets.php
+- functions/twitteroauth.php
+- functions/plugin-activation.php
+- options/options.php
+- options/js/options.js
+- options/css/options.css
+- options/child-theme/..
+- options/fields/layout2/field_layout2.php
+- options/fields/group/field_group.js
+- options/fields/group/field_group.php
+- options/fields/layout2/field_layout2.php
+- options/demo-importer/importer/parsers.php
+- wpml-config.xml
+- page-contact.php → page-templates/contact.php
+- functions/widget-coupon-popularposts.php
+- home/section-latestposts.php
+- home/section-slider.php
+
+
+v1.2.21 (Mar 22, 2018)
+-----------------------------
+- Fixed plugin install issue on "Install Required Plugins" page
+
+Files Updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- js/addons.js
+- css/addons.css
+
+
+v1.2.20 (Mar 22, 2018)
+ -----------------------------
+- Updated CMB2 Library
+
+Files updated:
+- /functions/CMB2/*
+
+
+v1.2.19 (Feb 14, 2018)
+ -----------------------------
+- Fixed Coupon category archives and tag archives still showing expired coupons when the `Exclude Expired Coupons` option is enabled
+
+Files updated:
+- functions.php
+- lang/coupon.pot
+- style.css
+
+
+v1.2.18 (Jan 21, 2018)
+-----------------------------
+- Fixed styling of subcategory in 'Coupon Categories' widget
+
+Files updated:
+- functions.php
+- lang/coupon.pot
+- style.css
+
+
+v1.2.17 (Jan 18, 2018)
+ -----------------------------
+- Fixed Coupon categories widget value change issue.
+
+Files updated:
+- functions/widget-coupon-categories.php
+- lang/coupon.pot
+
+
+v1.2.16 (Jan 17, 2018)
+ -----------------------------
+- Fixed broken homepage category tabs on categories containing non-alphanumeric characters
+
+Files updated:
+- functions.php
+- home/section-tabs.php
+- js/customscript.js
+- lang/coupon.pot
+- style.css
+
+v1.2.15 (Jan 11, 2018)
+ -----------------------------
+- Fixed Subscribe form responsive issue
+
+Files updated:
+- css/responsive.css
+- functions.php
+- style.css
+
+v1.2.14 (Jan 11, 2018)
+ -----------------------------
+- Fixed AJAX pagination-related issue on blog pages when the lightbox feature is disabled.
+
+Files updated:
+- functions.php
+- js/ajax.js
+- lang/coupon.pot
+- style.css
+
+v1.2.13 (Jan 11, 2018)
+ -----------------------------
+- Fixed missing border on some related coupons on the single page on a mobile screen
+- Only a modal is now opened when the coupon promotion type is "Coupon" and the Deal URL is empty
+
+Files updated:
+- css/responsive.css
+- functions.php
+- js/customscript.js
+- lang/coupon.pot
+- style.css
+
+v1.2.12 (Jan 10, 2018)
+ -----------------------------
+- Fixed Import CSV - Update old items issue
+
+Files updated:
+- options/options.php
+
+v1.2.11 (Jan 09, 2018)
+ -----------------------------
+- Fixed styling bug on modal popup
+
+Files updated:
+- css/responsive.css
+- functions.php
+- style.css
+
+v1.2.10 (Jan 09, 2018)
+ -----------------------------
+- Fixed: Some coupons at the homepage do not have a border on mobile
+
+Files updated:
+- css/responsive.css
+- functions.php
+- lang/coupon.pot
+- style.css
+
+v1.2.9 (Jan 06, 2018)
+ -----------------------------
+- NEW: Added "Coupon Expiry Time" field
+
+Files updated:
+- functions.php
+- functions/metaboxes.php
+- functions/theme-actions.php
+- lang/coupon.pot
+- style.css
+
+v1.2.8 (Jan 05, 2018)
+ -----------------------------
+- Fixed "Coupon Code" field appearing when the promotion type is "Deal" in the coupon editor screen
+
+Files updated:
+- functions.php
+- functions/metaboxes.php
+- lang/coupon.pot
+- style.css
+
+v1.2.7 (Jan 05, 2018)
+ -----------------------------
+- Fixed AJAX pagination-related issue on blog pages
+
+Files updated:
+- functions.php
+- lang/coupon.pot
+- style.css
+
+v1.2.6 (Dec 29, 2017)
+ -----------------------------
+- Fixed empty coupon tag links
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- lang/coupon.pot
+- style.css
+
+v1.2.5 (Dec 26, 2017)
+ -----------------------------
+- Fixed import issue when a line in the CSV is longer than 1000 characters
+
+Files updated:
+- functions.php
+- lang/coupon.pot
+- options/options.php
+- style.css
+
+v1.2.4 (Dec 22, 2017)
+ -----------------------------
+- Fixed another issue with the "Show coupon" button
+- Other minor fixes
+
+Files updated:
+- functions.php
+- theme-actions.php
+- js/customscript.js
+- js/ajax.js
+- coupon-loop.php (+)
+- archive-coupons.php
+- page-coupons-home.php
+- search-coupons.php
+- taxonomy-mts_coupon_categories.php
+- taxonomy-mts_coupon_tag.php
+- style.css
+
+v1.2.3 (Dec 22, 2017)
+ -----------------------------
+- Fixed issue with the "Show coupon" not working on AJAX-loaded coupons in the archive page
+
+Files updated:
+- functions.php
+- js/customscript.js
+- lang/coupon.pot
+- style.css
+
+v1.2.2 (Dec 13, 2017)
+ -----------------------------
+- Importer: coupon images are no longer imported twice.
+- Importer: coupon expiry date no longer added when it's empty.
+- Importer: coupon publish date is set to current time when it's empty.
+
+Files updated:
+- functions.php
+- lang/coupon.pot
+- options/options.php
+- style.css
+
+v1.2.1 (Nov 27, 2017)
+ -----------------------------
+- Added an option to import coupons from .csv files.
+
+Files updated:
+- functions.php
+- options/css/options.css
+- options/js/options.js
+- options/options.php
+- style.css
+
+v1.2.0 (Nov 16, 2017)
+ -----------------------------
+- Added an option to display featured images as coupon thumbnails. This can be set at Theme Options > oupon Archive > Coupon Thumbnail.
+
+Files updated:
+- archive-coupons.php
+- functions.php
+- functions/theme-actions.php
+- functions/widget-coupon-popularposts.php
+- options/options.php
+- search-coupons.php
+- single-coupons.php
+- style.css
+- taxonomy-mts_coupon_categories.php
+- taxonomy-mts_coupon_tag.php
+- theme-options.php
+
+v1.1.10 (Nov 12, 2017)
+ -----------------------------
+- Fixed Text Translation.
+
+Files updated:
+- functions.php
+- functions\theme-actions
+- lang/coupon.pot
+- style.css
+
+v1.1.10 (Nov 12, 2017)
+ -----------------------------
+- Fixed coupon modal "close" button sometimes not closing the modal
+
+Files updated:
+- functions.php
+- js/customscript.js
+- style.css
+
+v1.1.8 (Aug 16, 2017)
+ -----------------------------
+ - Fixed Few CSS Issues
+
+Files updated:
+- functions.php
+
+v1.1.7 (Aug 1, 2017)
+-----------------------------
+- Fixed Page jumps issue when clicking on tabs in FF and IE
+
+Files updated:
+- customscript.js
+
+
+v1.1.6 (Jun 8, 2017)
+-----------------------------
+- Fixed widgets icon select styling issue
+- Fixed homepage tabs section bug where all tabs were showing the same results
+
+Files updated:
+- functions.php
+- style.css
+- functions/widget-coupon-app.php
+- functions/widget-site-stats.php
+- home/section-tabs.php
+
+
+v1.1.5 (May 5, 2017)
+-----------------------------
+- Removed some unused WooCommerce code
+
+Files updated:
+- functions.php
+- style.css
+- functions/theme-actions.php
+
+
+v1.1.4 (Apr 15, 2017)
+ -----------------------------
+ - Open support tab when clicking on Support header link
+ - Added support for new WooCommerce Zoom & Slider effect in the single products
+
+ Files updated:
+- functions.php
+- style.css
+- options/js/options.js
+
+﻿v1.1.3 (Apr 15, 2017)
+-----------------------------
+- Fix incorrect breadcrumb coupon archive link when using a custom coupon slug
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- style.css
+
+v1.1.2 (Apr 12, 2017)
+-----------------------------
+- Fix homepage javascript errors
+
+Files updated:
+- functions.php
+- js/customscript.js
+- style.css
+
+v1.1.1 (Apr 06, 2017)
+-----------------------------
+- Fixed WooCommerce v3.0.0 compatibility issues
+
+Files updated:
+- functions.php
+- style.css
+- woocommerce/archive-product.php
+- woocommerce/single-product.php
+- css/woocommerce2.css
+
+
+v1.1.0 (Apr 05, 2017)
+-----------------------------
+- Fixed select2 script compatibility issue with WooCommerce v3.0.0
+
+Files updated:
+- functions.php
+- style.css
+- options/google-typography/google-typography.php
+
+
+v1.0.9 (Apr 04, 2017)
+-----------------------------
+- Include Support tab in Theme Options Panel
+- Fixed Schema Issue
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+- options/css/options.css
+- options/js/clipboard.min.js
+- options/support.php
+- options/js/help.js
+- options/js/history.js
+- options/js/options.js
+- options/help.js
+
+v1.0.8 (Apr 01, 2017)
+-----------------------------
+- Fixed wrong background field constructor args in the Options Panel
+
+Files updated:
+
+- options/fields/background/field_background.php
+- options/fields/group/field_group.php
+- options/options.php
+- style.css
+
+v1.0.7 (Mar 01, 2017)
+-----------------------------
+- Improved localization
+
+Files updated:
+- functions.php
+- lang/coupon.pot
+- style.css
+
+v1.0.6 (Feb 09, 2017)
+-----------------------------
+- Added "Latest" option to Homepag Coupons tab to show your latest coupons
+- Fixed issue with post editor when a child theme is active
+- Fixed issue with deal URL stripping some characters
+- Added lightbox for images
+
+Files updated:
+- functions.php
+- functions/metaboxes.php
+- home/section-tabs.php
+- js/customscript.js
+- options/fields/cats_select_custompost/field_cats_select_custompost.php
+- style.css
+- theme-options.php
+
+v1.0.5 (Jan 18, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v1.0.4 (Jan 8, 2017)
+-----------------------------
+- Added WP Subscribe Free recommendation in the ‘Subscribe’ tab of options panel
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+
+
+v1.0.3 (Dec 26, 2016)
+-----------------------------
+- Fixed meta info
+- Fixed ajax paginations
+- Added coupons archive page template
+- Added Coupons Tag taxonomy
+- Updated language file
+- Other small fixes
+
+Files updated:
+- style.css
+- functions.php
+- archive-coupons.php
+- page-blog.php
+- single-coupons.php
+- theme-options.php
+- functions/theme-actions.php
+- functions/widget-coupon-app.php
+- functions/widget-coupon-brand-info.php
+- functions/widget-site-stats.php
+- lang/default.pot
+
+Files added:
+- page-coupons-home.php
+- taxonomy-mts_coupon_tag.php
+
+
+v1.0.2 (Dec 25, 2016)
+-----------------------------
+- Fixed CSS Styling issues on homepage
+
+Files updated:
+- style.css
+
+
+v1.0.1 (Dec 21, 2016)
+-----------------------------
+- Added click-to-copy for coupon code fields
+- Fixed styling issues
+
+Files updated:
+- style.css
+- functions.php
+- js/customscript.js
+- functions/theme-actions.php
+- single-coupons.php
+- search-coupuns.php
+- taxonomy-mts_coupon_categories.php
+- home/section-tabs.php
+
+
+v1.0 (Dec 19, 2016)
+-----------------------------
+Theme Released.

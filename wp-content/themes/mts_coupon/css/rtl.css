@@ -1,0 +1,219 @@
+blockquote{padding-left:20px;padding-right:64px;}
+blockquote:after{right:21px }
+dt{float:right;clear:right;text-align:left;}
+/*-[ Header ]-----------------------*/
+#header .header-login{float:left;margin-left:0;margin-right:35px;}
+header{float:right }
+.main-header{float:right }
+#header h1, #header h2{float:right }
+#logo a{float:right }
+#logo img{float:right }
+.logo-wrap{float:right }
+.site-description{float:right;margin-left:0;margin-right:40px;}
+.site-description:before{left:auto;right:-18px;}
+.text-logo:after{margin-left:0;margin-right:20px;}
+.wp-caption.alignnone{margin:5px 0px 20px 20px;}
+#header .header-search{float:left }
+#header #searchform{float:left }
+.widget-header{float:left }
+.widget-header .textwidget{float:right;border-right:1px solid #cccccc;padding-right:20px;}
+.rtl #commentform .comment-form-cookies-consent input { margin-right: 0; margin-left: 10px; }
+.rtl .contact-form .mtscontact_consent input { margin-right: 0; margin-left: 8px; }
+.wp-block-archives.alignnone { margin: 1.5em 1.9em 1.571em 0 }
+/*-[ Navigation ]-----------------*/
+#primary-navigation .navigation{float:right }
+.navigation ul li{float:right }
+.navigation ul ul ul{right:230px;}
+.owl-prev{right:auto;left:0;}
+.owl-next{right:auto;left:33px;}
+.widget-slider .owl-prev{left:auto;right:0;}
+.subscribe-container .wp-subscribe-form{right:auto;left:0;}
+.subscribe-container > .container{background-position:right bottom }
+.subscribe-container #wp-subscribe h4.title, .subscribe-container #wp-subscribe p.text, .subscribe-container #wp-subscribe p.footer-text{margin-left:0;margin-right:13.5%;text-align:right;}
+.subscribe-container #wp-subscribe input[type="text"]{text-align:right }
+#site-footer .post-info > span{float:right;margin-right:0;margin-left:7px;}
+#sidebar .post-info > span{float:right;margin-right:0;margin-left:7px;}
+.tab-post, .coupon-related-post{float:right;border-right:0;border-left:1px solid #d5d1d8;}
+.tab-post:nth-of-type(4n-3){border-right:1px solid #d5d1d8 }
+.popular-store li{float:right;margin-right:0;margin-left:1.695%;}
+.popular-store li:nth-child(6n){margin-left:0 }
+.coupon-related-posts .latestPost.coupon-related-post:nth-of-type(3n-2){border-right:1px solid #d5d1d8 }
+.subscribe-container.coupon-subscribe #wp-subscribe p.text{text-align:left;max-width:100%;margin-left:13.5%;}
+.promote-social a, .footer-social a{margin-right:0;margin-left:6px;}
+.promote-social a:last-of-type, .footer-social a:last-of-type{margin-left:0;}
+/*-[ Content ]--------------------*/
+.right-content{float:left }
+#content_box{float:right }
+article ul{margin:1.5em 1.9em 1.571em 0 }
+article ol{margin:1.5em 1.9em 1.571em 0 }
+.post{float:right }
+.readMore{float:left }
+.ss-full-width #content_box{padding-left:0;padding-right:0;}
+.wp-post-image{float:right }
+.featured-thumbnail{float:right }
+.post-image{float:right }
+.single-title{float:right;padding:0 0 0 0;}
+.post-info{float:right;text-align:left;}
+.single .post-info{text-align:right;}
+.latestPost .post-info > span{text-align:left;}
+.thecategory{margin-right:5px }
+/**********latest-posts***********/
+article header{float:right }
+.latestPost{float:right }
+.article .iconlist{margin-right:0 }
+#tabber .inside{padding:0 0 15px 0 }
+#tabber ul.tabs li{float:right;margin-right:0;}
+#tabber ul.tabs li a{float:right;padding:2px 0 2px 0;}
+#tabber ul.tabs li.tab-recent-posts a{border-right:0 }
+#tabber .inside li{padding:15px 0 0 0;margin-right:15px;margin-left:15px;}
+#tabber .tab-thumb{float:right;margin:0px 0px 0px 12px;}
+#tabber .inside .tabsSep{float:right }
+.widget_nav_menu .fa > a, .widget_nav_menu .fa > a{padding-right:5px }
+.wp-review-comment-form-rating .review-comment-field-msg{margin-right:0;margin-left:12px;}
+.wp-review-comment-rating{line-height:10px }
+/*-[ Coupon Archive ]--------------------*/
+.coupon-cat .featured-category-title{text-align:right }
+.featured-text-container{float:right;margin-right:0;margin-left:3.3%;}
+.coupon_extra_rewards{float:right }
+.coupon .post-info > span{float:right;margin-right:0;margin-left:7px;}
+.coupon .post-info> span:after{margin-left:0;margin-right:4px;}
+.code-button-bg{text-align:left;}
+.deal-button.show-coupon-button{border-right:none;border-left:8px solid #ca312b;}
+.stats-icon{float:right;margin-right:0;margin-left:20px;}
+.widget .app-icon{float:right;border-right:0;border-left:1px solid rgba(255, 255, 255, 0.05);}
+/*-[ Tables ]--------------------*/
+table{text-align:right }
+table th, table td{text-align:right }
+/*-[ Search Form ]------------------*/
+#searchform{float:right }
+#search-image.sbutton, #searchsubmit{left:0;float:left;right:auto;}
+#search-image.sbutton{left:-3px;}
+#searchform .fa-search{left:0px }
+#s{float:right }
+/* Microphone icon position fix */
+input::-webkit-input-speech-button{margin-left:14px;margin-right:4px;}
+/*-[ Read More ]-------------------*/
+.read-more{margin:0 10px 0 0 }
+/*-[ Bottom Ad in post ]-----------*/
+.bottomad{float:right }
+#sidebar .wp-post-image, #site-footer .wp-post-image, .widget .wp-post-image, .widget .wpt_thumb_small, .wpt_avatar, .widget .wp_review_tab_thumb_small{margin-left:20px;margin-right:0;float:right;}
+.widget{float:right }
+.widget li{margin-left:0;margin-right:17px }
+#site-footer .widget li{margin-right:0;}
+.advanced-recent-posts li, .popular-posts li, .category-posts li, .related-posts-widget li, .author-posts-widget li{margin-right:0!important;}
+.widget .app-right{float:right }
+.showcase-icon{float:right;margin-right:0;margin-left:20px;}
+#site-footer .toggle-menu .toggle-caret{right:auto;left:0;}
+.widget h3{margin:0px 0 15px 0 }
+.advanced-recent-posts li, .popular-posts li, .category-posts li, .related-posts-widget li{padding-right:0 }
+.share-item{float:right }
+.share-item.shareit.top{float:right }
+.social-profile-icons ul li{float:right }
+.f-widget{float:right;margin-right:0;margin-left:2.4%;}
+#site-footer .widget.social-profile-icons{overflow:visible }
+#copyright-note > span{float:right }
+.widget.toggle-menu .toggle-caret{right:inherit;left:0;}
+/*-[ Back To Top ]---------------------------*/
+.to-top{float:left }
+.toplink .fa-chevron-up{left:0 }
+.toplink{padding-left:27px }
+#move-to-top{left:10px;right:auto;}
+/*-[ Related Posts ]---------------------------*/
+.related-posts .latestPost{margin-right:0;margin-left:3.6%;}
+a.coupon-image{margin-right:0;margin-left:20px;float:right;}
+.related-posts .featured-thumbnail{margin-right:0;margin-left:20px;}
+.related-posts ul{margin-right:0 }
+.related-posts h5{padding-right:80px }
+.related-posts .relatepostli3, .related-posts .relatepostli1{margin-left:0;float:left;}
+.related-posts li{float:right }
+.rthumb{float:right;margin-left:10px;}
+.related-posts .last{margin-left:0 }
+/*-[ Post Tags ]---------------------------------*/
+.tagtext{float:right;margin-left:5px;}
+/*-[ Author Box ]--------------------------------*/
+.postauthor img{float:right;margin:4px 0 0 20px;}
+.postauthor .author-posts{float:right;margin-left:0;margin-right:120px;}
+.left{float:right }
+.right{float:left }
+.last{margin-left:0 }
+/*-[ Tag widget ]------------------------------*/
+.tagcloud a{float:right;margin-left:3px;}
+/*-[ Subscribe Widget ]------------------------*/
+.mts-subscribe input[type="text"]{float:right }
+#mts_subscribe_widget{border:1px solid #F1F1F1 !important }
+.mts-subscribe input[type="submit"]{float:left;left:0;right:auto;}
+/*-[ Ad Widgets ]------------------------------*/
+.ad-125 li{float:right;padding-right:0;margin-right:0;}
+.ad-125 li:nth-child(2n+2){float:left!important }
+#wp-calendar td{border-left:1px solid #F1F4F6 }
+#wp-calendar #prev{text-align:right;padding-right:12px;}
+/*-[Comments]--------------*/
+.nocomments{float:right }
+#comments .avatar{float:right;margin-left:20px;margin-right:0;}
+.comment time{padding-right:10px }
+ul.children .commentImageLeft{border-right:1px solid #c1bbb6;right:-70px;}
+input#author, input#email, input#url{margin-left:10px }
+.contactform #submit{float:right }
+ol.commentlist{margin-right:0 }
+.reply{float:left }
+.reply a{float:right }
+.commentlist .children{padding-left:0;padding-right:5.112%;float:right;}
+.avatar{float:right }
+#commentform p{float:right }
+#commentform p label{padding-right:10px }
+.cancel-comment-reply a{float:left }
+.comment-notes .required{padding-right:0 }
+/*-[ pagination ]------------------*/
+.pagination{float:right }
+.pagination ul li{float:right }
+.currenttext, .pagination a:hover, .single .pagination a:hover .currenttext{margin:0 0 0 6px;}
+.pagination a{margin:0 0 0 6px;}
+.pagination .nav-previous{float:right }
+.pagination .nav-next{float:left }
+.single .pagination a .currenttext, .single .pagination a:hover .currenttext{margin-left:0 }
+#load-posts .fa{margin-right:0;margin-left:8px;}
+.contact-form.loading:after{right:0 }
+.ajax-search-results-container{right:0 }
+.ajax-search-results-container.loading:after{left:0;right:0;}
+.ajax-search-results .wp-post-image{margin-left:10px;margin-right:0;}
+.ajax-search-meta .results-count{float:right }
+.ajax-search-meta .results-link{float:left }
+/*-[ Load More ]-------------------*/
+.pace .pace-progress{right:0 }
+pre:before{ 
+	left:14px; 
+	right: inherit; 
+}
+/*-[ WP Tab Widget ]--------------------------------*/
+.wpt_widget_content .inside li, .widget .wp_review_tab_widget_content .tab-content li{text-align:right!important }
+/*-[ WP Review ]--------------------------------*/
+.latestPost-review-wrapper{left:0;right:auto;}
+.review-star{right:auto;}
+.review-desc{float:right }
+.review-total-wrapper{float:left;margin-right:0;margin-left:15px;}
+.user-total-wrapper{float:right;text-align:right;}
+.user-total-wrapper span{float:right}
+span#mts-user-reviews-counter{float:none}
+.review-total-star.allowed-to-rate{float:left}
+.widget .wp-review-tab-pagination a.next{float:left}
+.widget .wp-review-tab-pagination a.prev{float:right}
+.rtl .shareit .share-item.reddit img {float:right}
+.rtl .shareit .share-item.pinbtn a{ background-position-x:right }
+.rtl .shareit{margin:0 -100px 0}
+.rtl .shareit .share-item .stumble-icon{float:right;margin-right:0;margin-left:2px;}
+.rtl .shareit .share-item .stumble-text{ float:right }
+.rtl .share-item.pinbtn a{padding-left:4px}
+.modern-share-item .fa {margin-right: 0;margin-left: 4px;}
+.rtl .modern-share-item {float:right}
+.rtl .coupon-recent-posts article header{float:left;padding-left:0;padding-right:15px;}
+.woocommerce #reviews #comments ol.commentlist li img.avatar, .woocommerce-page #reviews #comments ol.commentlist li img.avatar{right:0;left:auto;}
+.woocommerce #reviews #comments ol.commentlist li .comment-text, .woocommerce-page #reviews #comments ol.commentlist li .comment-text{margin-right:85px;margin-left:0;}
+.woocommerce .woocommerce-product-rating .star-rating, .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled{float:right;}
+.woocommerce span.onsale, .woocommerce-page span.onsale{right:0;left:auto;}
+.woocommerce .woocommerce-product-rating .star-rating{margin-right:0;margin-left:5px;}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{float:left;}
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images{float:right;}
+@media screen and (max-width:1100px){.site-description{margin-right:0;}
+}
+@media screen and (max-width:1160px){.subscribe-container #wp-subscribe h4.title, .subscribe-container #wp-subscribe p.text, .subscribe-container #wp-subscribe p.footer-text{margin-right:0;}
+}

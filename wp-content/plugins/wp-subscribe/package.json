@@ -1,0 +1,19 @@
+{
+  "name": "WP-Subscribe-Pro",
+  "version": "0.0.1",
+  "description": "The subscriber plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mythemeshop"
+  ],
+  "author": "MyThemeShop",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-wp-i18n": "^0.5.4"
+  }
+}

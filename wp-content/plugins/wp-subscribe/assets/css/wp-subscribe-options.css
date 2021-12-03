@@ -1,0 +1,69 @@
+/*
+Plugin Name: WP Subscribe Pro
+Plugin URI: http://mythemeshop.com/plugins/wp-subscribe-pro/
+Description: WP Subscribe is a simple but powerful subscription plugin which supports MailChimp, Aweber and Feedburner.
+Author: MyThemeShop
+Author URI: http://mythemeshop.com/
+*/
+.wp_subscribe_options_form label { vertical-align: top }
+.wp_subscribe_colors, .wp_subscribe_labels { }
+.wp_subscribe_options_form .wp-picker-container { position: absolute; right: 0; }
+.wp_subscribe_colors > div { position: relative; margin: 20px 0; }
+.wp_subscribe_colors label { display: inline-block; margin-top: 2px; }
+.wp_subscribe_options_form .wp-picker-container > a { margin-right: 0 }
+.wp-subscribe h2 { margin-bottom: 1em }
+.wp-subscribe-preview-popup:before { content: "\f177"; display: inline-block; width: 20px; height: 20px; font-size: 20px; margin-right: 5px; margin-top: 2px; line-height: 1; font-family: dashicons; text-decoration: inherit; font-weight: 400; font-style: normal; vertical-align: top; text-align: center; transition: color .1s ease-in 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.wp-subscribe-preview-popup.disabled { pointer-events: none }
+#cookies-cleared { display: none; line-height: 27px; margin-left: 4px; color: #777; float: left; margin-top: 8px; }
+#cookies-cleared .dashicons { vertical-align: middle }
+.wp-subscribe-field h4 { margin-top: 0; float: left; width: 100%; margin-bottom: .5em; }
+.wp-subscribe-field p { margin: 0; float: left; width: 100%; }
+.wp-subscribe-field select { margin-left: 0 }
+h3.wp-subscribe-field { margin-top: 1em; margin-bottom: 1.8em; }
+.wp-subscribe-field { clear: both; margin: 0 0 1em 0; overflow: hidden; float: left; width: 100%; }
+.wp-subscribe-color-field { width: 181px; float: left; margin-top: 7px; margin-right: 7px; }
+.wp-picker-holder { position: absolute; z-index: 10; }
+.wp-picker-input-wrap { position: absolute; z-index: 1; }
+.wp-subscribe-color-field label { display: block; margin-bottom: .8em; font-weight: bold; }
+.wp-subscribe-label-field { float: left; margin-right: 14px; margin-bottom: 10px; }
+.wp-subscribe-label-field label { width: 168px; display: inline-block; font-weight: bold; vertical-align: top; padding-top: 7px; }
+.wp-subscribe-label-field .wps-input-wrapper { display: inline-block; }
+.wp-subscribe-label-field .wps-desc {display: block;font-size: 12px;color: #787878;font-style: italic;margin-top: 3px;}
+.wp-subscribe-label-field .list-selectbox { display: inline-block; width: auto; }
+.wps-tabs-wrapper > div { margin-top: 12px }
+p.submit { clear: both; float: left; margin-top: 0; }
+.postmeta-label { clear: both; float: left; }
+.wps-popup-content-options .wp-subscribe-label-field, .wps-post-options .wp-subscribe-label-field { width: 100% }
+.wps-popup-content-options .wp-subscribe-label-field input, .wps-post-options .wp-subscribe-label-field input { width: 400px }
+.wps-popup-content-options h4 { width: 100%; float: left; clear: both; }
+#wp-subscribe-opacity-slider, #wp-subscribe-popup-width-slider { width: 300px; margin: 10px 20px 10px 0; float: left; }
+#wp_subscribe_overlay_opacity, #wp_subscribe_popup_width { float: left }
+.wp-subscribe-content-colors { float: left; width: 100%; margin-top: 30px; margin-bottom: 20px; }
+.wp-subscribe-content-colors .wp-subscribe-color-field:nth-child(5) { clear: left }
+label[for="wp_subscribe_overlay_opacity"], label[for="wp_subscribe_popup_width"] { width: 100%; display: block; font-weight: bold; margin-bottom: .1em; }
+.wp_subscribe_account_details { clear: both; float: left; width: 100%; margin-bottom: 10px; }
+#wp_subscribe_regenerate_cookie { margin-top: 7px; margin-bottom: 15px; float: left; }
+.wps-colors-loader { margin-bottom: 12px }
+.wps-palettes { display: none }
+.wps-colors-loader .color-palette { max-width: 300px; height: 40px; margin-top: 12px; border: 1px solid #ccc; }
+.wps-colors-loader a { background: #D56144; color: #FFF; padding: 5px 10px; border-radius: 3px; text-decoration: none; }
+.wps-colors-loader a:hover,.wps-colors-loader a:hover {color: #fff;}
+.single-palette { position: relative; clear: both; }
+.single-palette .wps-load-palette { display: none }
+.single-palette:hover .wps-load-palette { display: block; position: absolute; top: 6px; left: 6px; }
+span.width-px-label { line-height: 27px }
+.description { color: #666; font-size: 13px; font-style: italic; }
+.clear { clear: both }
+
+.widget .wp-subscribe-label-field { float: none }
+.widget .wp-subscribe-label-field label { display: block; width: auto; padding: 0 0 7px; }
+.widget .wp-subscribe-label-field .wps-input-wrapper { display: block; }
+.widget .wps-account-details input.widefat { width: 75% }
+.widget .wp-subscribe-service-field .list-selectbox { display: block; width: 100%; }
+.widget .wp-subscribe-service-field { padding-top: 10px; }
+
+.widget .wp-subscribe-color-field { width: 100%; float: none }
+.widget .wp-picker-container { position: absolute; right: 0; }
+.widget .wp_subscribe_colors > div { position: relative; margin: 20px 0 }
+.widget .wp_subscribe_colors label { display: inline-block; margin-top: 2px }
+.widget .wp_subscribe_options_form .wp-picker-container > a { margin-right: 0 }

@@ -1,0 +1,19 @@
+.bg-upload-selects, .color-gradient-wrapper, .buttonset-tabs.ui-buttonset, .buttonset-tab-content, .parallax-buttonset, .color-gradient-direction-wrapper {
+	float: left;
+	width: 100%;
+}
+.bg-opt-input-label {
+	vertical-align: top;
+	line-height: 30px;
+	margin-right: 10px
+}
+.color-gradient-step-wrapper .bg-opt-input-label { display: inline-block }
+.bg-opt-input-label + .wp-picker-container { margin-left: 0 }
+.color-gradient-wrapper { padding: 0 0 20px; }
+.bg-upload-selects { padding-top: 20px; }
+.bg-upload-select { margin: 0 20px 10px 0 }
+.buttonset-tab-content {
+	display: none;
+	margin: 15px 0;
+}
+.buttonset-tab-content.active-tab { display: block }

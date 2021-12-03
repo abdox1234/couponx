@@ -1,0 +1,8 @@
+body#link { background: #fff; }
+#mnmshortcode_tag { width: 200px }
+#mnmshortcode_panel { margin-bottom: 8px }
+#mnmshortcode_panel table { width: 100%; font-size: 12px; }
+.mnmshortcode_description { color: #666; font-size: 12px; }
+.mnmshortcode_att_name { text-transform: capitalize }
+#mnmshortcode_panel input, #mnmshortcode_panel select, #mnmshortcode_panel textarea { width: 100%; padding: 4px 4px; font-size: 12px; font-family: 'Open Sans', sans-serif; }
+#mnmshortcode_panel textarea { height: 120px }

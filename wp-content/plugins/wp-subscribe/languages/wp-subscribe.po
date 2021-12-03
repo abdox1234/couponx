@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Subscribe by MyThemeShop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-12 16:50+0530\n"
+"PO-Revision-Date: 2017-04-12 16:50+0530\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-subscribe.php:61 ../wp-subscribe.php:68
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../wp-subscribe.php:163
+msgid "No data found."
+msgstr ""
+
+#: ../wp-subscribe.php:171
+msgid "No email address found."
+msgstr ""
+
+#: ../wp-subscribe.php:178
+msgid "Not a valid email address."
+msgstr ""
+
+#: ../wp-subscribe.php:187
+msgid "Unknown mailing service called."
+msgstr ""
+
+#: ../wp-subscribe.php:222
+msgid "Not permitted."
+msgstr ""
+
+#: ../wp-subscribe.php:231
+msgid "Service not defined."
+msgstr ""
+
+#: ../wp-subscribe.php:248
+msgid "No lists found."
+msgstr ""
+
+#: ../includes/wps-functions-options.php:17
+msgid "Aweber"
+msgstr ""
+
+#: ../includes/wps-functions-options.php:18
+msgid "Adds subscribers to your Aweber account."
+msgstr ""
+
+#: ../includes/wps-functions-options.php:23
+msgid "FeedBurner"
+msgstr ""
+
+#: ../includes/wps-functions-options.php:24
+msgid "Adds subscribers to your FeedBurner account."
+msgstr ""
+
+#: ../includes/wps-functions-options.php:29
+msgid "MailChimp"
+msgstr ""
+
+#: ../includes/wps-functions-options.php:30
+msgid "Adds subscribers to your MailChimp account."
+msgstr ""
+
+#: ../includes/wps-helpers.php:239
+msgid "No Animation"
+msgstr ""
+
+#: ../includes/wps-helpers.php:240
+msgid "Attention Seekers"
+msgstr ""
+
+#: ../includes/wps-helpers.php:241
+msgid "bounce"
+msgstr ""
+
+#: ../includes/wps-helpers.php:242
+msgid "flash"
+msgstr ""
+
+#: ../includes/wps-helpers.php:243
+msgid "pulse"
+msgstr ""
+
+#: ../includes/wps-helpers.php:244
+msgid "rubberBand"
+msgstr ""
+
+#: ../includes/wps-helpers.php:245
+msgid "shake"
+msgstr ""
+
+#: ../includes/wps-helpers.php:246
+msgid "swing"
+msgstr ""
+
+#: ../includes/wps-helpers.php:247
+msgid "tada"
+msgstr ""
+
+#: ../includes/wps-helpers.php:248
+msgid "wobble"
+msgstr ""
+
+#: ../includes/wps-helpers.php:250
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: ../includes/wps-helpers.php:251
+msgid "bounceIn"
+msgstr ""
+
+#: ../includes/wps-helpers.php:252
+msgid "bounceInDown"
+msgstr ""
+
+#: ../includes/wps-helpers.php:253
+msgid "bounceInLeft"
+msgstr ""
+
+#: ../includes/wps-helpers.php:254
+msgid "bounceInRight"
+msgstr ""
+
+#: ../includes/wps-helpers.php:255
+msgid "bounceInUp"
+msgstr ""
+
+#: ../includes/wps-helpers.php:257
+msgid "Fading Entrances"
+msgstr ""
+
+#: ../includes/wps-helpers.php:258
+msgid "fadeIn"
+msgstr ""
+
+#: ../includes/wps-helpers.php:259
+msgid "fadeInDown"
+msgstr ""
+
+#: ../includes/wps-helpers.php:260
+msgid "fadeInDownBig"
+msgstr ""
+
+#: ../includes/wps-helpers.php:261
+msgid "fadeInLeft"
+msgstr ""
+
+#: ../includes/wps-helpers.php:262
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: ../includes/wps-helpers.php:263
+msgid "fadeInRight"
+msgstr ""
+
+#: ../includes/wps-helpers.php:264
+msgid "fadeInRightBig"
+msgstr ""
+
+#: ../includes/wps-helpers.php:265
+msgid "fadeInUp"
+msgstr ""
+
+#: ../includes/wps-helpers.php:266
+msgid "fadeInUpBig"
+msgstr ""
+
+#: ../includes/wps-helpers.php:268
+msgid "Flippers"
+msgstr ""
+
+#: ../includes/wps-helpers.php:269
+msgid "flipInX"
+msgstr ""
+
+#: ../includes/wps-helpers.php:270
+msgid "flipInY"
+msgstr ""
+
+#: ../includes/wps-helpers.php:272
+msgid "Lightspeed"
+msgstr ""
+
+#: ../includes/wps-helpers.php:273
+msgid "lightSpeedIn"
+msgstr ""
+
+#: ../includes/wps-helpers.php:275
+msgid "Rotating Entrances"
+msgstr ""
+
+#: ../includes/wps-helpers.php:276
+msgid "rotateIn"
+msgstr ""
+
+#: ../includes/wps-helpers.php:277
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: ../includes/wps-helpers.php:278
+msgid "rotateInDownRight"
+msgstr ""
+
+#: ../includes/wps-helpers.php:279
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: ../includes/wps-helpers.php:280
+msgid "rotateInUpRight"
+msgstr ""
+
+#: ../includes/wps-helpers.php:282
+msgid "Specials"
+msgstr ""
+
+#: ../includes/wps-helpers.php:283
+msgid "rollIn"
+msgstr ""
+
+#: ../includes/wps-helpers.php:285
+msgid "Zoom Entrances"
+msgstr ""
+
+#: ../includes/wps-helpers.php:286
+msgid "zoomIn"
+msgstr ""
+
+#: ../includes/wps-helpers.php:287
+msgid "zoomInDown"
+msgstr ""
+
+#: ../includes/wps-helpers.php:288
+msgid "zoomInLeft"
+msgstr ""
+
+#: ../includes/wps-helpers.php:289
+msgid "zoomInRight"
+msgstr ""
+
+#: ../includes/wps-helpers.php:290
+msgid "zoomInUp"
+msgstr ""
+
+#: ../includes/wps-widget.php:23
+msgid "Displays subscription form, supports FeedBurner, MailChimp & AWeber."
+msgstr ""
+
+#: ../includes/wps-widget.php:34
+msgid "WP Subscribe Widget"
+msgstr ""
+
+#: ../includes/wps-widget.php:50
+msgid "Get more stuff"
+msgstr ""
+
+#: ../includes/wps-widget.php:51
+msgid ""
+"Subscribe to our mailing list and get interesting stuff and updates to your "
+"email inbox."
+msgstr ""
+
+#: ../includes/wps-widget.php:52
+msgid "Enter your email here"
+msgstr ""
+
+#: ../includes/wps-widget.php:53
+msgid "Enter your name here"
+msgstr ""
+
+#: ../includes/wps-widget.php:54
+msgid "Sign Up Now"
+msgstr ""
+
+#: ../includes/wps-widget.php:55
+msgid "Thank you for subscribing."
+msgstr ""
+
+#: ../includes/wps-widget.php:56
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/wps-widget.php:57
+msgid "we respect your privacy and take protecting it seriously"
+msgstr ""
+
+#: ../includes/wps-widget.php:174
+msgid "Include <strong>Name</strong> field"
+msgstr ""
+
+#: ../includes/wps-widget.php:180
+msgid "Labels"
+msgstr ""
+
+#: ../includes/wps-widget.php:286 ../includes/wps-widget.php:356
+msgid "Click here"
+msgstr ""
+
+#: ../includes/wps-widget.php:352
+msgid "Get list"
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:57
+msgid "Unable to connect to Aweber. The Authorization Code is empty."
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:67
+msgid ""
+"Unable to connect your Aweber Account. The Authorization Code is incorrect."
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:155
+#, php-format
+msgid ""
+"<span>1.</span> <a href=\"%s\" target=\"_blank\">Click here</a> <span>to "
+"open the authorization page and log in.</span>"
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:156
+msgid ""
+"<span>2.</span> Copy and paste the authorization code in the field below."
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:165
+msgid "Your Aweber Account is connected."
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:166
+msgid ""
+"<a href=\"#\" class=\"aweber_disconnect\">Click here</a> <span>to disconnect."
+"</span>"
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:202
+msgid "AWeber List"
+msgstr ""
+
+#: ../includes/subscription/class-wps-aweber.php:203
+#: ../includes/subscription/class-wps-mailchimp.php:70
+msgid "Select List"
+msgstr ""
+
+#: ../includes/subscription/class-wps-feedburner.php:39
+msgid "Feedburner ID"
+msgstr ""
+
+#: ../includes/subscription/class-wps-mailchimp.php:60
+msgid "MailChimp API URL"
+msgstr ""
+
+#: ../includes/subscription/class-wps-mailchimp.php:61
+msgid "The API key of your MailChimp account."
+msgstr ""
+
+#: ../includes/subscription/class-wps-mailchimp.php:69
+msgid "MailChimp List"
+msgstr ""
+
+#: ../includes/subscription/class-wps-mailchimp.php:78
+msgid "Send double opt-in notification"
+msgstr ""

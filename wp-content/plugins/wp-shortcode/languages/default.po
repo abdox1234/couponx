@@ -1,0 +1,377 @@
+# Copyright (C) 2017 WP Shortcode by MyThemeShop
+# This file is distributed under the same license as the WP Shortcode by MyThemeShop package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Shortcode by MyThemeShop 1.4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-shortcode\n"
+"POT-Creation-Date: 2017-02-07 15:55:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: tinymce/editor_plugin.php:6
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: tinymce/editor_plugin.php:31
+msgid "Select Shortcode"
+msgstr ""
+
+#: tinymce/editor_plugin.php:68
+msgid "Cancel"
+msgstr ""
+
+#: tinymce/editor_plugin.php:72
+msgid "Insert"
+msgstr ""
+
+#: tinymce/shortcodes.php:10
+msgid "Brown Button"
+msgstr ""
+
+#: tinymce/shortcodes.php:11 tinymce/shortcodes.php:22
+#: tinymce/shortcodes.php:33 tinymce/shortcodes.php:44
+#: tinymce/shortcodes.php:55 tinymce/shortcodes.php:66
+msgid "Button text"
+msgstr ""
+
+#: tinymce/shortcodes.php:12
+msgid ""
+"Inserts a brown button. Set target to <strong>_blank</strong> to open link "
+"in a new window."
+msgstr ""
+
+#: tinymce/shortcodes.php:21
+msgid "Blue Button"
+msgstr ""
+
+#: tinymce/shortcodes.php:23
+msgid ""
+"Inserts a blue button. Set target to <strong>_blank</strong> to open link in "
+"a new window."
+msgstr ""
+
+#: tinymce/shortcodes.php:32
+msgid "Green Button"
+msgstr ""
+
+#: tinymce/shortcodes.php:34
+msgid ""
+"Inserts a green button. Set target to <strong>_blank</strong> to open link "
+"in a new window."
+msgstr ""
+
+#: tinymce/shortcodes.php:43
+msgid "Yellow Button"
+msgstr ""
+
+#: tinymce/shortcodes.php:45
+msgid ""
+"Inserts a yellow button. Set target to <strong>_blank</strong> to open link "
+"in a new window."
+msgstr ""
+
+#: tinymce/shortcodes.php:54
+msgid "Red Button"
+msgstr ""
+
+#: tinymce/shortcodes.php:56
+msgid ""
+"Inserts a red button. Set target to <strong>_blank</strong> to open link in "
+"a new window."
+msgstr ""
+
+#: tinymce/shortcodes.php:65
+msgid "White Button"
+msgstr ""
+
+#: tinymce/shortcodes.php:67
+msgid ""
+"Inserts a white button. Set target to <strong>_blank</strong> to open link "
+"in a new window."
+msgstr ""
+
+#: tinymce/shortcodes.php:72
+msgid "Alert Note"
+msgstr ""
+
+#: tinymce/shortcodes.php:73
+msgid "Note text"
+msgstr ""
+
+#: tinymce/shortcodes.php:74
+msgid "Display a note."
+msgstr ""
+
+#: tinymce/shortcodes.php:79
+msgid "Alert Announce"
+msgstr ""
+
+#: tinymce/shortcodes.php:80
+msgid "Announce text"
+msgstr ""
+
+#: tinymce/shortcodes.php:81
+msgid "Display an announcement."
+msgstr ""
+
+#: tinymce/shortcodes.php:86
+msgid "Alert Success"
+msgstr ""
+
+#: tinymce/shortcodes.php:87
+msgid "Success text"
+msgstr ""
+
+#: tinymce/shortcodes.php:88
+msgid "Display a success message."
+msgstr ""
+
+#: tinymce/shortcodes.php:93
+msgid "Alert Warning"
+msgstr ""
+
+#: tinymce/shortcodes.php:94
+msgid "Warning text"
+msgstr ""
+
+#: tinymce/shortcodes.php:95
+msgid "Display warning or error message."
+msgstr ""
+
+#: tinymce/shortcodes.php:105
+msgid "YouTube Video"
+msgstr ""
+
+#: tinymce/shortcodes.php:107
+msgid "Embed a Youtube Video"
+msgstr ""
+
+#: tinymce/shortcodes.php:117
+msgid "Vimeo Video"
+msgstr ""
+
+#: tinymce/shortcodes.php:119
+msgid "Embed a Vimeo Video."
+msgstr ""
+
+#: tinymce/shortcodes.php:129
+msgid "Google Map"
+msgstr ""
+
+#: tinymce/shortcodes.php:131
+msgid "Embed a Google Map. Insert address or GPS location."
+msgstr ""
+
+#: tinymce/shortcodes.php:138
+msgid "Toggle"
+msgstr ""
+
+#: tinymce/shortcodes.php:139
+msgid "Insert Content Here"
+msgstr ""
+
+#: tinymce/shortcodes.php:141
+msgid "Content will be shown after clicking on the toggle title."
+msgstr ""
+
+#: tinymce/shortcodes.php:146
+msgid "Tabs"
+msgstr ""
+
+#: tinymce/shortcodes.php:147
+msgid ""
+"[tab title=&quot;Tab 1 Title&quot;]Insert tab 1 content here[/tab]\n"
+"[tab title=&quot;Tab 2 Title&quot;]Insert tab 2 content here[/tab]\n"
+"[tab title=&quot;Tab 3 Title&quot;]Insert tab 3 content here[/tab]"
+msgstr ""
+
+#: tinymce/shortcodes.php:149
+msgid "Display content in tabbed form."
+msgstr ""
+
+#: tinymce/shortcodes.php:155
+msgid "Simple horizontal divider."
+msgstr ""
+
+#: tinymce/shortcodes.php:161
+msgid "Divider with an anchor link to top of page."
+msgstr ""
+
+#: tinymce/shortcodes.php:166
+msgid "Clear"
+msgstr ""
+
+#: tinymce/shortcodes.php:168
+msgid ""
+"Clear shortcode can be used to clear an element of its neighbors, no "
+"floating elements are allowed on the left or the right side."
+msgstr ""
+
+#: tinymce/shortcodes.php:176
+msgid "One Third"
+msgstr ""
+
+#: tinymce/shortcodes.php:177 tinymce/shortcodes.php:185
+#: tinymce/shortcodes.php:193 tinymce/shortcodes.php:201
+#: tinymce/shortcodes.php:209 tinymce/shortcodes.php:217
+#: tinymce/shortcodes.php:225 tinymce/shortcodes.php:233
+#: tinymce/shortcodes.php:241 tinymce/shortcodes.php:249
+#: tinymce/shortcodes.php:257 tinymce/shortcodes.php:265
+#: tinymce/shortcodes.php:273 tinymce/shortcodes.php:281
+#: tinymce/shortcodes.php:289 tinymce/shortcodes.php:297
+#: tinymce/shortcodes.php:305 tinymce/shortcodes.php:313
+#: tinymce/shortcodes.php:321 tinymce/shortcodes.php:329
+#: tinymce/shortcodes.php:337 tinymce/shortcodes.php:345
+msgid "Column content"
+msgstr ""
+
+#: tinymce/shortcodes.php:179 tinymce/shortcodes.php:187
+#: tinymce/shortcodes.php:195 tinymce/shortcodes.php:203
+#: tinymce/shortcodes.php:211 tinymce/shortcodes.php:219
+#: tinymce/shortcodes.php:227 tinymce/shortcodes.php:235
+#: tinymce/shortcodes.php:243 tinymce/shortcodes.php:251
+#: tinymce/shortcodes.php:259 tinymce/shortcodes.php:267
+#: tinymce/shortcodes.php:275 tinymce/shortcodes.php:283
+#: tinymce/shortcodes.php:291 tinymce/shortcodes.php:299
+#: tinymce/shortcodes.php:307 tinymce/shortcodes.php:315
+#: tinymce/shortcodes.php:323 tinymce/shortcodes.php:331
+#: tinymce/shortcodes.php:339 tinymce/shortcodes.php:347
+msgid ""
+"Use column shortcodes in conjunction with their <em>(Last)</em> version, eg. "
+"<br /><strong>One Third + One Third + One Third (Last)</strong>"
+msgstr ""
+
+#: tinymce/shortcodes.php:184
+msgid "One Third (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:192
+msgid "Two Third"
+msgstr ""
+
+#: tinymce/shortcodes.php:200
+msgid "Two Third (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:208
+msgid "One Half"
+msgstr ""
+
+#: tinymce/shortcodes.php:216
+msgid "One Half (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:224
+msgid "One Fourth"
+msgstr ""
+
+#: tinymce/shortcodes.php:232
+msgid "One Fourth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:240
+msgid "Three Fourth"
+msgstr ""
+
+#: tinymce/shortcodes.php:248
+msgid "Three Fourth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:256
+msgid "One Fifth"
+msgstr ""
+
+#: tinymce/shortcodes.php:264
+msgid "One Fifth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:272
+msgid "Two Fifth"
+msgstr ""
+
+#: tinymce/shortcodes.php:280
+msgid "Two Fifth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:288
+msgid "Three Fifth"
+msgstr ""
+
+#: tinymce/shortcodes.php:296
+msgid "Three Fifth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:304
+msgid "Four Fifth"
+msgstr ""
+
+#: tinymce/shortcodes.php:312
+msgid "Four Fifth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:320
+msgid "One Sixth"
+msgstr ""
+
+#: tinymce/shortcodes.php:328
+msgid "One Sixth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:336
+msgid "Five Sixth"
+msgstr ""
+
+#: tinymce/shortcodes.php:344
+msgid "Five Sixth (Last)"
+msgstr ""
+
+#: tinymce/shortcodes.php:356
+msgid "Tooltip"
+msgstr ""
+
+#: tinymce/shortcodes.php:357
+msgid "Trigger text"
+msgstr ""
+
+#: tinymce/shortcodes.php:358
+msgid ""
+"Add a tooltip that appears on hover. Possible values for direction(Cardinal) "
+"of bubble: nw | n | ne | w | e | sw | s | se"
+msgstr ""
+
+#: wp-shortcode.php:358
+msgid "Untitled"
+msgstr ""
+
+#: wp-shortcode.php:392
+msgid "Toggle Title"
+msgstr ""
+
+#: wp-shortcode.php:408
+msgid "Back to Top"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Shortcode by MyThemeShop"
+msgstr ""
+
+#. #-#-#-#-#  default.po (WP Shortcode by MyThemeShop 1.4.3)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  default.po (WP Shortcode by MyThemeShop 1.4.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://mythemeshop.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"With the vast array of shortcodes, you can quickly and easily build content "
+"for your posts and pages and turbocharge your blogging experience."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MyThemeShop"
+msgstr ""
