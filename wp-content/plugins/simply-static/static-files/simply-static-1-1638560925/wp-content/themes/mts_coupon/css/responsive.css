@@ -1,0 +1,630 @@
+html {
+	overflow-x: hidden;
+	-webkit-text-size-adjust: 100%;
+}
+/*-----------------------------------------------
+/* @media { } queries
+/*---------------------------------------------*/
+@media screen and (max-width:1470px) {
+	.shareit {
+		position: relative!important;
+		width: 100%!important;
+		top: 0!important;
+		right: auto;
+		left: 0;
+		margin: 0!important;
+		padding: 10px 0!important;
+	}
+	.share-item { margin: 0 }
+	.modern-share-item { margin-right: 10px }
+	.share-item.facebookbtn, .share-item.facebooksharebtn { width:86px }
+    .shareit .share-item {
+    	float: none;
+    	display: inline-block;
+    	overflow: hidden;
+    }
+}
+@media screen and (max-width:1230px) { 
+	#page, .container { max-width: 96% }
+}
+@media screen and (max-width:1180px) {
+	.subscribe-container.coupon-subscribe > .container { background: none }
+}
+@media screen and (max-width:1160px) {
+	.tab-post { height: 300px }
+	.tabs-container .tabs-menu li a, .tab-text a { font-size: 16px }
+	.dashed-button { font-size: 14px }
+	.subscribe-container > .container { background: none }
+	.subscribe-container #wp-subscribe h4.title, .subscribe-container #wp-subscribe p.text, .subscribe-container #wp-subscribe p.footer-text {
+		margin-left: 0;
+		max-width: 512px;
+		margin: 0 auto 20px;
+		text-align: center;
+	}
+	.subscribe-container .wp-subscribe-form, .subscribe-container .wp-subscribe > form {
+ 		position: static;
+ 		max-width: 512px;
+ 		float: none;
+ 		margin: 0 auto 3px;
+ 	}
+}
+@media screen and (max-width:1100px) {
+	.logo-wrap { margin: 15px 0 0 0 }
+	.text-logo:after { display: none }
+	.site-description {
+		margin-left: 0;
+		float: none;
+		clear: both;
+	}
+	#header .header-search {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.image-logo { margin-top: 10px }
+	#header .header-login {
+		background: none;
+		margin-top: 10px;
+		margin-left: 0;
+		min-width: auto;
+	}
+	#header .header-login li:last-of-type {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.coupon-featured {
+		display: flex;
+		align-items: center;
+	}
+	.latestPost.coupon:last-of-type { margin-bottom: 0 }
+	.featured-text-container { width: 20% }
+	.article.coupon-cat .right-content, .single_post .right-content { width: 76.5% }
+	#sidebar .widget .app-large { font-size: 16px; }
+}
+@media screen and (max-width:1000px) {
+	#move-to-top {
+		margin-right: 0;
+		right: 5px;
+	}
+	.subscribe-container .wp-subscribe-form {
+		position: relative;
+		float: none;
+		margin: 0 auto;
+	}
+	.subscribe-container.coupon-subscribe #wp-subscribe h4.title, .subscribe-container.coupon-subscribe #wp-subscribe p.text, .subscribe-container.coupon-subscribe #wp-subscribe p.footer-text { max-width: 100% }
+	.footer-info-section .info-text {
+		width: 48%;
+		min-width: auto;
+	}
+	.footer-social-icons {
+		width: 48%;
+		max-width: 100%;
+	}
+}
+@media screen and (max-width:960px) { 
+	#secondary-navigation { left: 0 }
+	img {
+		max-width: 100%;
+		height: auto!important;
+	}
+	.ad-300 img { max-width: 100% }
+	.ad-125 li { max-width: 40% }
+	.ad-125 img {
+		padding: 0;
+		background: #FAFAFA;
+		border: 0;
+	}
+}
+@media screen and (max-width:900px) {
+	#secondary-navigation a {
+		padding: 8px 14px;
+		box-sizing: border-box;
+	}
+	.tab-post { width: 33.33% }
+	.tab-post:nth-of-type(4) { border-top: none }
+	.tab-post:nth-of-type(4n-3) { border-left: none }
+	.tab-post:nth-of-type(3n-2) { border-left: 1px solid #d5d1d8 }
+}
+@media screen and (min-width:865px) { 
+	.navigation.mobile-only { display: none }
+}
+@media screen and (max-width:865px) { 
+	#page, .container { max-width: 96% }
+	.article { width: 100% }
+	#content_box {
+		padding-right: 0px;
+		padding-left: 0px!important;
+	}
+	.sidebar.c-4-12 {
+		float: none;
+		width: 100% !important;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+	}
+	#site-footer .container { padding: 0 2% }
+	.mts-cart span a { padding-bottom: 0 }
+	.mts-cart {
+		float: none;
+		text-align: center!important;
+	}
+	.header-layout-2 #header h1, .header-layout-2  #header h2, .header-layout-2  .site-description {
+		float: none;
+		text-align: center;
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
+	.header-layout-2 #logo a, .header-layout-2 #logo img {
+		float: none;
+		letter-spacing: 0;
+	}
+	.header-layout-2 .logo-wrap {
+		margin-bottom: 10px;
+		margin-top: 0;
+		width: 100%;
+	}
+	.navigation {
+		width: 100%;
+		border: none;
+		display: none;
+	}
+	#secondary-navigation {
+		width: 100%!important;
+		position: relative!important;
+	}
+	.navigation .menu a, .navigation .menu .fa > a, .navigation .menu .fa > a {
+		background: transparent;
+	}
+	.navigation .menu {
+		display: block!important;
+		float: none;
+		background: transparent;
+		margin-bottom: 45px;
+	}
+	.navigation ul ul {
+		visibility: visible!important;
+		opacity: 1!important;
+		position: relative;
+		left: 0!important;
+		border: 0;
+		width: 100%;
+	}
+	.navigation ul li li {
+		background: transparent;
+		border: 0;
+	}
+	#navigation { height: auto }
+	#navigation li, .navigation ul li li {
+		width: 100%!important;
+		float: left;
+		position: relative;
+	}
+	.navigation ul li:after { display: none }
+	.navigation ul li:before { display: none }
+	#navigation li a {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2)!important;
+		width: 100%!important;
+		box-sizing: border-box;
+	}
+	#navigation a {
+		text-align: left;
+		width: 100%;
+		text-indent: 25px;
+	}
+	a#pull {
+		display: block;
+		width: 100%;
+		position: relative;
+		color: #33244a;
+		padding: 10px 0;
+	}
+	a#pull:after {
+		content: "\f0c9";
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 10px;
+		font-family: FontAwesome;
+	}
+	.navigation ul .sfHover a, .navigation ul li:hover, .navigation ul .sfHover ul li { background: transparent }
+	/*disable flayout*/
+	#catcher { height: 0 !important }
+	.sticky-navigation-active {
+		position: relative !important;
+		top: 0 !important;
+	}
+	/*-[ Responsive Navigation ]--------------------------------*/
+	.main-container {
+		position: relative;
+		left: 0;
+		transition: left 500ms ease;
+	}
+	.mobile-menu-active .main-container {
+		left: 300px;
+		transition: left 500ms ease;
+	}
+	.navigation.mobile-menu-wrapper {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: -300px;
+		width: 300px !important;
+		height: 100%;
+		border-right: 1px solid rgba(0, 0, 0, 0.15);
+		overflow: auto;
+		transition: left 500ms ease;
+		-webkit-backface-visibility: hidden;
+		box-sizing: border-box;
+	}
+	.mobile-menu-active .navigation.mobile-menu-wrapper {
+		left: 0;
+		z-index: 1111;
+	}
+	.navigation ul li {
+		width: 100%;
+		display: block;
+	}
+	.navigation ul li a {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.navigation ul li:last-of-type a {
+		border-bottom: none;
+	}
+	.navigation ul li:hover { background: none }
+	.navigation ul li a, .navigation ul ul a {
+		padding: 9px 15px;
+		width: 100%;
+	}
+	.navigation ul li:hover > a:before, .navigation ul .current-menu-item > a:before { display: none }
+	.navigation ul ul {
+		position: static;
+		width: 100%;
+		border: none;
+	}
+	.navigation ul ul li {
+		background: none;
+		width: 100%;
+	}
+	#primary-navigation .navigation ul ul li a {
+		padding-left: 40px;
+	}
+	.navigation ul ul li:last-of-type a { border-bottom: 1px solid rgba(0, 0, 0, 0.1) }
+	.navigation i { display: inline }
+	.navigation ul ul a {
+		width: 100%!important;
+	}
+	.navigation ul ul ul a { padding: 9px 25px !important }
+	.navigation ul ul ul ul a { padding: 9px 30px !important }
+	.navigation .toggle-caret {
+		display: block;
+		width: 41px;
+		height: 41px;
+		line-height: 43px;
+		border-left: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.navigation .menu-item-has-children > a:after { content: '' }
+	#mobile-menu-overlay {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		cursor: pointer;
+		display: none;
+		backface-visibility: hidden;
+		background: rgba(0,0,0,.5);
+	}
+	html.noscroll {
+		position: fixed;
+		overflow-y: scroll;
+		width: 100%;
+	}
+	/*-[ Mega Menu ]--------------------------------*/
+	#wpmm-megamenu .wpmm-subcategories {
+		width: 100%;
+		text-indent: 0;
+	}
+	#wpmm-megamenu .wpmm-posts { width: 100% }
+	#wpmm-megamenu .wpmm-post {
+		width: 100%!important;
+		padding: 0 10px!important;
+		text-align: center!important;
+	}
+	#wpmm-megamenu .wpmm-thumbnail img { float: left }
+
+	.popular-store li .post-count { font-size: 16px }
+	.signup .signup-title {
+		font-size: 20px;
+		line-height: 32px;
+	}
+	#header .header-search {
+		float: none;
+		clear: both;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	#header #searchform {width: 100%;min-width: 100%;}
+	#slider-nav .slider-nav-item { padding: 0 15px }
+	#slider-nav h2 { font-size: 14px }
+
+	.latestPost .title {
+		margin-top: 10px;
+		line-height: 1;
+	}
+	.latestPost.coupon .front-view-title { line-height: 1 }
+	.related-posts .title { line-height: 1.4 }
+	.latestPost .title a { font-size: 20px }
+	.latestPost {
+		margin-bottom: 30px;
+		padding-bottom: 23px;
+	}
+	#load-posts { margin: 23px 0 35px 0 }
+	.article { margin-bottom: 0 }
+	.pagination {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	#slider-nav h2 {
+		max-height: 60px;
+		overflow: hidden;
+	}
+	.woocommerce-pagination {
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	#blog-feed-home .one-fourth {
+		width: 48%;
+		margin-right: 4%;
+		margin-bottom: 25px!important;
+	}
+	#blog-feed-home .one-fourth:nth-child(2n) {
+	margin-right: 0%;
+	}
+	#blog-feed-home .one-third {
+		width: 48%;
+		margin-right: 4%;
+		margin-bottom: 25px!important;
+	}
+	#blog-feed-home .one-third:nth-child(3n+1) {
+		clear: none;
+	}
+}
+@media screen and (min-width:720px) and (max-width:866px) {
+	.widget .app-large { font-size: 18px }
+	.widget .app-right { padding: 10px }
+}
+@media screen and (max-width:782px) { 
+	.admin-bar .pace .pace-progress { top: 46px }
+}
+@media screen and (min-width:400px) {
+	.widget-header .adcode-widget {
+		width: 320px;
+		height: 100px;
+	}
+}
+@media screen and (min-width:550px) {
+	.widget-header .adcode-widget {
+		width: 468px;
+		height: 60;
+	}
+}
+@media screen and (min-width:985px) {
+	.widget-header .adcode-widget {
+		width: 728px;
+		height: 90;
+	}
+}
+@media screen and (max-width:720px) {
+	#secondary-navigation a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#secondary-navigation .navigation a { background: transparent }
+	.widgets-num-3 .f-widget, .widgets-num-4 .f-widget { width: 48%; margin-right: 4%; max-width: 100%; }
+	.widgets-num-3 .f-widget:nth-child(even), .widgets-num-4 .f-widget:nth-child(even) { margin-right: 0; }
+	.ad-125 li { max-width: 45% }
+	#comments { margin-right: 0 }
+}
+@media screen and (max-width:680px) { 
+	.tab-post, .coupon-related-posts .latestPost.coupon-related-post { width: 50% }
+	.coupon-related-posts .latestPost.coupon-related-post { max-width: 100% }
+	.tab-post:nth-of-type(3), .coupon-related-posts .latestPost.coupon-related-post:nth-of-type(3) { border-top: none }
+	.tab-post:nth-of-type(3n-2), .coupon-related-posts .latestPost.coupon-related-post:nth-of-type(3n-2) { border-left: none }
+	.tab-post:nth-of-type(2n-1), .coupon-related-posts .latestPost.coupon-related-post:nth-of-type(2n-1) { border-left: 1px solid #d5d1d8 }
+	.featured-text-container { width: 25% }
+	.article.coupon-cat .right-content, .single_post .right-content { width: 71.5% }
+}
+@media screen and (max-width:600px) { 
+	.featured-thumbnail img { width: 100% }
+	.admin-bar .pace .pace-progress { top: 0px }
+	.popular-store li {
+		width: 22.7%;
+		margin-right: 3%;
+	}
+	.popular-store li:nth-child(6n) { margin-right: 3% }
+	.popular-store li:nth-child(4n) { margin-right: 0 }
+	#slider-nav {
+		width: 100%;
+		height: auto;
+		display: block;
+		overflow: hidden;
+		padding: 15px 0;
+	}
+	#slider-nav .slider-nav-item {
+		width: 50%;
+		padding: 5px 0;
+		float: left;
+		display: block;
+		border-bottom: none;
+		max-width: 100%;
+	}
+	#slider-nav .slider-nav-item:after { display: none }
+	.mfp-inline-holder .mfp-content .white-popup-block .cp-content-wrapper { padding-left: 20px; padding-right: 20px;  }
+}
+@media screen and (max-width:550px) {
+	.featured-category-title, .single-title, .related-posts h4, #respond h4, .total-comments, .postauthor h4 { font-size: 24px }
+	.owl-prev, .owl-next { top: -30px }
+	.single-title { margin-bottom: 10px }
+	.sbutton { float: right }
+	.f-widget, .widgets-num-4 .f-widget, .footer-info-section .info-text, .footer-social-icons {
+		width: 100%;
+		margin-right: 0;
+	}
+	.footer-info-section { padding-top: 20px }
+	.footer-social-icons { margin-top: 20px }
+	.featured-text-container { width: 30% }
+	.article.coupon-cat .right-content, .single_post .right-content { width: 66.5% }
+	.subscribe-container #wp-subscribe input.submit { width: 35%; font-size: 17px;  }
+ 	.subscribe-container #wp-subscribe input[type="text"] { width: 65%;  }
+ 	.mfp-inline-holder .mfp-content {
+ 		width: 90% !important;
+ 		padding: 50px 5%;
+ 	}
+ 	.coupon-popup-subscribe.subscribe-container #wp-subscribe { padding: 0 10px; }
+ 	body .mfp-close {
+ 		top: 50px;
+ 		right: 5%;
+ 	}
+}
+@media screen and (max-width:480px) {
+	#navigation { border-bottom: 0 }
+	.navigation {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.navigation.pagination { margin-bottom: 30px }
+	#secondary-navigation {
+		width: 102%;
+		height: 35px;
+	}
+	.related-posts .latestPost {
+		width: 100%;
+		float: left;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+	.related-posts .relatepostli4 {
+		padding-bottom: 15px;
+		border-bottom: 1px solid #CCC;
+		margin-bottom: 11px;
+	}
+	.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+		width: 100%;
+		margin-right: 0;
+	}
+	.copyrights { text-align: center }
+	.top { width: 100% }
+	#cancel-comment-reply-link {
+		margin-bottom: 0;
+		margin-top: -43px;
+	}
+	#slider-nav .slider-nav-item { width: 100%; }
+	.latestPost .post-info > span {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.review-total-star { position: static!important }
+	.deal-button { font-size: 12px }
+	.article.coupon-cat .featured-text-container {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 0 5px 0;
+	}
+	.article.coupon-cat .coupon-featured {
+		padding: 0;
+		margin: 9px 0 0 0;
+		width: 50%;
+		height: auto;
+		border: none;
+		float: left;
+	}
+	.article.coupon-cat .deal-button, .article.coupon-cat .code-button-bg {
+		margin-top: 5px;
+		width: 50%;
+		float: right;
+		border-right: 0;
+	}
+	.article.coupon-cat .right-content {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.article.coupon-cat .front-view-content { display: none }
+	.article.coupon-cat .latestPost.coupon { margin-bottom: 0 }
+	.tab-post, .tab-post:nth-of-type(2n-1), .tab-post:nth-of-type(3n-2), .coupon-related-posts .latestPost.coupon-related-post {
+		border: 1px solid #d5d1d8;
+		border-bottom: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.tab-post:nth-of-type(3n-2), .coupon-related-posts .latestPost.coupon-related-post:nth-of-type(3n-2) {
+		border-left: 1px solid #d5d1d8;
+	}
+	.coupon-related-posts .latestPost.coupon-related-post:nth-of-type(3) {
+		border-top: 1px solid #d5d1d8;
+	}
+	.tab-post:last-child, .coupon-related-posts .latestPost.coupon-related-post:last-child {
+		border-bottom: 1px solid #d5d1d8;
+	}
+	.featured-text-container {width: 100%;max-width: 100%;margin: 0;}
+	.article.coupon-cat .right-content, .single_post .right-content {
+	    width: 100%;
+	}
+	.featured-text-container .coupon-featured {
+	    width: 100%;
+	    height: 100%;
+	    text-align: center;
+	    display: block;
+		padding: 10px;
+		overflow: hidden;
+	}
+	.featured-text-container .coupon-featured.coupon-featured-image {
+		max-width: 150px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding: 0;
+	}
+	#blog-feed-home .one-fourth, #blog-feed-home .one-third {
+		width: 100%;
+		margin-right: 0 !important;
+		margin-bottom: 20px!important;
+	}
+	.white-popup-block .cp-content-wrapper .coupon-code-wrapper h2 { font-size: 24px }
+}
+@media screen and (max-width:460px) {
+	.tabs-container .tabs-menu li a, .tab-text a {
+		line-height: 18px;
+	}
+	.tab-post, .coupon-related-post { padding: 15px }
+	.tab-text { margin-bottom: 15px }
+	.popular-store li {
+		width: 31.1%;
+		margin-right: 3.3%;
+	}
+	.popular-store li:nth-child(6n) { margin-right: 3.3% }
+	.popular-store li:nth-child(4n) { margin-right: 3.3% }
+	.popular-store li:nth-child(3n) { margin-right: 0 }
+}
+@media screen and (max-width:400px) { 
+	article header { overflow: hidden }
+	.slidertext { display: none }
+}
+@media screen and (max-width:320px) { 
+	.latestPost {
+		float: none;
+		width: 100% !important;
+	}
+	.latest-cat-post #featured-thumbnail {
+		width: 100%;
+		max-width: 100%;
+	}
+	.latest-cat-post #featured-thumbnail .featured-thumbnail { float: none }
+	#navigation li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	#navigation li a { border-bottom: 1px solid #576979 }
+}
